@@ -4,6 +4,10 @@ The goal of this project is to create a complete level in Unreal Engine, with sp
 
 I have chosen to create an island, with a haunted house as the building. Inside the house, the player must pick up a magic book in order to progress. 
 
+Video explanation of the project:
+
+https://www.youtube.com/watch?v=LRSwKEM_cn8
+
 ## Landscape
 
 ![](https://github.com/jsfabiani/MDV_Illumination/blob/main/Screenshots/Landscape.png)
@@ -14,7 +18,7 @@ The material for the landscape consists of four layers: a baseline layer of soil
 
 ![](https://github.com/jsfabiani/MDV_Illumination/blob/main/Screenshots/Foliage.png)
 
-The forest was generated using Unreal's foliage tool. For the sea, I used the experimental Water plugin, with an Ocean Water Body.
+The forest was generated using Unreal's foliage tool. For the sea, I used the experimental Water plugin, with an Ocean Water Body. There are four blocking volumes in the sea to avoid the player going out of bounds.
 
 The landscape is lit using a directional light along with a Sky Light and Sky Atmosphere. There's also a Volumetric Cloud and an Exponential Height Fog. There's a boundless Post-Processing Volume to make the color temperature slightly warmer and add bloom and lens flares.
 
